@@ -1,0 +1,674 @@
+# depslib dependency file v1.0
+1698284685 source:c:\users\jessica\desktop\laboratorio 2\labo2\labo2\diseño.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+
+1698452060 source:c:\users\jessica\desktop\laboratorio 2\labo2\labo2\empleado_laboratorio.c
+	"empleado_laboratorio.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"conio.h"
+
+1698452060 c:\users\jessica\desktop\laboratorio 2\labo2\labo2\empleado_laboratorio.h
+
+1698284685 source:c:\users\jessica\desktop\laboratorio 2\labo2\labo2\ingreso_labo.c
+
+1698452060 source:c:\users\jessica\desktop\laboratorio 2\labo2\labo2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1698452060 source:c:\users\jessica\desktop\laboratorio 2\labo2\labo2\pacientes.c
+	"Pacientes.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1698284685 source:c:\users\jessica\desktop\laboratorio 2\labo2\labo2\practicas_ingreso.c
+
+1698452791 source:c:\users\jessica\desktop\laboratorio 2\labo2\labo2\practicas_labo.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+	"practicas_Labo.h"
+	"diseño.h"
+
+1698452582 c:\users\jessica\desktop\laboratorio 2\labo2\labo2\practicas_labo.h
+
+1698284685 c:\users\jessica\desktop\laboratorio 2\labo2\labo2\diseño.h
+
+1699109492 source:c:\users\mariu\onedrive\escritorio\github\labo2\labo2\diseño.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+
+1698890460 source:c:\users\mariu\onedrive\escritorio\github\labo2\labo2\ingreso_labo.c
+	<time.h>
+	<stdio.h>
+	<string.h>
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+
+1699318717 source:c:\users\mariu\onedrive\escritorio\github\labo2\labo2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"practicas_Labo.h"
+
+1698890460 source:c:\users\mariu\onedrive\escritorio\github\labo2\labo2\pacientes.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+
+1698886704 source:c:\users\mariu\onedrive\escritorio\github\labo2\labo2\practicas_ingreso.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"conio.h"
+
+1699190437 source:c:\users\mariu\onedrive\escritorio\github\labo2\labo2\practicas_labo.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+	"practicas_Labo.h"
+	"diseño.h"
+
+1699321563 c:\users\mariu\onedrive\escritorio\github\labo2\labo2\practicas_labo.h
+
+1699189583 c:\users\mariu\onedrive\escritorio\github\labo2\labo2\diseño.h
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+
+1699192345 source:c:\users\mariu\onedrive\escritorio\github\labo2\labo2\empleado_laboratorio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"conio.h"
+	"diseño.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+
+1699192345 c:\users\mariu\onedrive\escritorio\github\labo2\labo2\empleado_laboratorio.h
+	"diseño.h"
+	"ingresos_Labo.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+	"practicas_ingreso.h"
+
+1698452060 c:\users\jessica\desktop\laboratorio 2\labo2\labo2\pacientes.h
+
+1698977202 c:\users\mariu\onedrive\escritorio\github\labo2\labo2\pacientes.h
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+
+1698794226 source:c:\users\lagun\github\labo2\labo2\diseño.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+
+1698794226 source:c:\users\lagun\github\labo2\labo2\empleado_laboratorio.c
+	"empleado_laboratorio.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"conio.h"
+
+1698794226 c:\users\lagun\github\labo2\labo2\empleado_laboratorio.h
+
+1698794226 source:c:\users\lagun\github\labo2\labo2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"empleado_laboratorio.h"
+
+1698794226 source:c:\users\lagun\github\labo2\labo2\pacientes.c
+	"Pacientes.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1698794226 c:\users\lagun\github\labo2\labo2\pacientes.h
+
+1698794226 source:c:\users\lagun\github\labo2\labo2\practicas_ingreso.c
+
+1698794226 source:c:\users\lagun\github\labo2\labo2\practicas_labo.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+	"practicas_Labo.h"
+	"diseño.h"
+
+1698794226 c:\users\lagun\github\labo2\labo2\practicas_labo.h
+
+1698794226 c:\users\lagun\github\labo2\labo2\diseño.h
+
+1698795100 source:c:\users\lagun\github\labo2\labo2\ingreso_labo.c
+	<time.h>
+	<stdio.h>
+	<string.h>
+	"ingresos_Labo.h"
+
+1698794806 c:\users\lagun\github\labo2\labo2\ingresos_labo.h
+	<time.h>
+	<stdio.h>
+	"practicas_ingreso.h"
+
+1698794226 c:\users\lagun\github\labo2\labo2\practicas_ingreso.h
+
+1698977775 c:\users\mariu\onedrive\escritorio\github\labo2\labo2\ingresos_labo.h
+	<time.h>
+	<stdio.h>
+	"practicas_ingreso.h"
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+
+1698977345 c:\users\mariu\onedrive\escritorio\github\labo2\labo2\practicas_ingreso.h
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"ingresos_Labo.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+	"practicas_ingreso.h"
+
+1700192024 source:c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"diseño.h"
+
+1700095748 c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\practicas_labo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"empleado_laboratorio.h"
+	"diseño.h"
+
+1700101634 source:c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\practicas_labo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700182181 c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\diseño.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700087056 c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\empleado_laboratorio.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"diseño.h"
+	"estructuras.h"
+
+1700100396 c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\ingresos_labo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"diseño.h"
+
+1700104529 c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\practicas_ingreso.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"estructuras.h"
+
+1700193327 c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\pacientes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"diseño.h"
+
+1700104829 source:c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\empleado_laboratorio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700103590 source:c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\ingreso_labo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<time.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700193433 source:c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\diseño.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700337577 source:c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\pacientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"estructuras.h"
+
+1700104529 source:c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\practicas_ingreso.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"estructuras.h"
+
+1699721956 D
+	"diseño.h"
+	"ingresos_Labo.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+	"practicas_ingreso.h"
+	<time.h>
+	<stdio.h>
+	"practicas_ingreso.h"
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"ingresos_Labo.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	<stdio.h>
+	<stdlib.h>
+	"practicas_Labo.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"conio.h"
+	"practicas_ingreso.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"conio.h"
+	"practicas_Labo.h"
+	"diseño.h"
+	"diseño.h"
+	"ingresos_Labo.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+	"practicas_ingreso.h"
+	<time.h>
+	<stdio.h>
+	"practicas_ingreso.h"
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"ingresos_Labo.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	<stdio.h>
+	<stdlib.h>
+	"practicas_Labo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"conio.h"
+	"practicas_ingreso.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"conio.h"
+	"practicas_Labo.h"
+	"diseño.h"
+
+1699720450 source:c:\users\lagun\github ultimo\labo2\labo2\empleado_laboratorio.c
+
+1699720570 source:c:\users\win10\onedrive\escritorio\labo2\labo2\labo2\empleado_laboratorio.c
+
+1699721956 5884757b8b3ac8dc8116ef0014ae942158edd
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+
+1699733978 c65145e3ee9562b397570dd155d7646734a14
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"conio.h"
+	"diseño.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"conio.h"
+	"diseño.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+
+1699720450 c:\users\lagun\github ultimo\labo2\labo2\diseño.h
+
+1699720570 c:\users\win10\onedrive\escritorio\labo2\labo2\labo2\diseño.h
+
+1699720450 c:\users\lagun\github ultimo\labo2\labo2\empleado_laboratorio.h
+
+1699720450 dac111805beff97532220a8ee613923924154
+	"diseño.h"
+	"ingresos_Labo.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+	"practicas_ingreso.h"
+	<time.h>
+	<stdio.h>
+	"practicas_ingreso.h"
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	<stdio.h>
+	<stdlib.h>
+	"practicas_Labo.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"conio.h"
+	"practicas_ingreso.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"conio.h"
+	"practicas_Labo.h"
+	"diseño.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+
+1699733342 c:\users\win10\onedrive\escritorio\labo2\labo2\labo2\empleado_laboratorio.h
+	"diseño.h"
+	"ingresos_Labo.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+	"practicas_ingreso.h"
+
+1699722653 c:\users\lagun\github ultimo\labo2\labo2\ingresos_labo.h
+
+1699733342 c:\users\win10\onedrive\escritorio\labo2\labo2\labo2\ingresos_labo.h
+	<time.h>
+	<stdio.h>
+	"practicas_ingreso.h"
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+
+1699720450 c:\users\lagun\github ultimo\labo2\labo2\practicas_ingreso.h
+
+1699733342 c:\users\win10\onedrive\escritorio\labo2\labo2\labo2\practicas_ingreso.h
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"ingresos_Labo.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+
+1699721351 c:\users\lagun\github ultimo\labo2\labo2\pacientes.h
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"ingresos_Labo.h"
+	"pacientes.h"
+	"practicas_Labo.h"
+
+1699734242 c:\users\win10\onedrive\escritorio\labo2\labo2\labo2\pacientes.h
+	"empleado_laboratorio.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+
+1699720450 c:\users\lagun\github ultimo\labo2\labo2\practicas_labo.h
+
+1699720450 source:c:\users\lagun\github ultimo\labo2\labo2\main.c
+
+1699733342 c:\users\win10\onedrive\escritorio\labo2\labo2\labo2\practicas_labo.h
+
+1699733964 source:c:\users\win10\onedrive\escritorio\labo2\labo2\labo2\ingreso_labo.c
+	<time.h>
+	<time.h>
+	<stdio.h>
+	<string.h>
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+
+1699733978 _Labo.h"
+
+1699734114 source:c:\users\win10\onedrive\escritorio\labo2\labo2\labo2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"practicas_Labo.h"
+
+1699720450 source:c:\users\lagun\github ultimo\labo2\labo2\pacientes.c
+
+1699720570 source:c:\users\win10\onedrive\escritorio\labo2\labo2\labo2\pacientes.c
+
+1699720450 source:c:\users\lagun\github ultimo\labo2\labo2\practicas_ingreso.c
+
+1699720570 source:c:\users\win10\onedrive\escritorio\labo2\labo2\labo2\practicas_ingreso.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"conio.h"
+	"practicas_ingreso.h"
+
+1699720450 source:c:\users\lagun\github ultimo\labo2\labo2\practicas_labo.c
+
+1699720570 source:c:\users\win10\onedrive\escritorio\labo2\labo2\labo2\practicas_labo.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"conio.h"
+	"practicas_Labo.h"
+	"diseño.h"
+
+1699733342 
+
+1699720450 source:c:\users\lagun\github ultimo\labo2\labo2\diseño.c
+
+1699730113 source:c:\users\lagun\github ultimo\labo2\labo2\ingreso_labo.c
+	<time.h>
+	<stdio.h>
+	<string.h>
+	"diseño.h"
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+
+1699733978 source:c:\users\win10\onedrive\escritorio\labo2\labo2\labo2\diseño.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	"empleado_laboratorio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+
+1700086958 c:\users\mariu\onedrive\escritorio\gitkraken\labo2\labo2\estructuras.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"diseño.h"
+
