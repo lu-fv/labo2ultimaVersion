@@ -9,7 +9,7 @@
 #include "practicas_Labo.h"
 #include "empleado_laboratorio.h"
 #include "estructuras.h"
-
+#include <ctype.h>
 #define ARCHIVO_PACIENTES "pacientes.dat"
 #define ARCHIVO_EMPLEADOS "archivo_empleados.dat"
 #define ARCHIVO_PRACXINGRESO "practicaXingreso.dat"
@@ -43,7 +43,7 @@ void imprimirUnPaciente( pacientes p, int x,int y)
     {
         gotoxy(x,y);printf(" >>>>EL PACIENTE ESTA INACTIVO<<<<");
     }
-
+    //getch();
 }
 
 nodoArbol * inicArbol()
@@ -129,7 +129,13 @@ void altaPacientes()
         fflush (stdin);
         gotoxy(60,6);scanf ("%d",&dni);
 
-        if (buscarPaciente(arbol,dni)==0)
+        if (dni==NULL)
+    {
+        gotoxy(40,7);printf ("DNI invalido");
+        getch();
+        BORRAR;
+    }
+        if (buscarPaciente(arbol,dni)==0) /// se registra por primera vez
         {
             p= cargaPacientes(dni);
             fwrite(&p,sizeof(pacientes),1,arc);///graba en el archivo
@@ -138,15 +144,15 @@ void altaPacientes()
         }
         else
         {
-            if(buscarPaciente(arbol,dni)==1)
+            if(buscarPaciente(arbol,dni)==1) /// lo encuentra
             {
-                gotoxy(32,7);printf("El paciente ya se encuentra en la base de datos");
+                gotoxy(32,7);printf("El paciente ya se encuentra dada de alta");
             }
             else
             {
-                gotoxy(30,7);printf("DESEA REACTIVAR EL PACIENTE? S/N : ");
+                gotoxy(40,7);printf("DESEA REACTIVAR EL PACIENTE? S/N : ");
                 fflush(stdin);
-                gotoxy(63,7);scanf("%c",&reactiva);
+                gotoxy(74,7);scanf("%c",&reactiva);
 
                 if(reactiva=='s' || reactiva=='S')
                 {
@@ -154,6 +160,8 @@ void altaPacientes()
                 }
             }
         }
+
+
         fclose (arc);
     }
 }
@@ -193,7 +201,7 @@ pacientes cargaPacientes(int dni)
 {
     pacientes p;
 
-    gotoxy(36,7);printf(">>>>> INGRESO NUEVO PACIENTE <<<<<<");
+    gotoxy(36,8);printf(">>>>> INGRESO NUEVO PACIENTE <<<<<<");
     p.dni=dni;
     gotoxy(40,9);printf ("NOMBRE Y APELLIDO: ");
     gotoxy(40,10);printf ("DIRECCION: ");
@@ -231,7 +239,7 @@ void reactivaPaciente (int dni)
                 p.eliminado =0;
                 fseek (arch, sizeof (pacientes)*-1, SEEK_CUR);
                 fwrite(&p, sizeof (pacientes), 1, arch);
-                gotoxy(45,8);printf("El paciente se reactivo correctamente");
+                gotoxy(40,8);printf("El paciente se reactivo correctamente");
                 flag=1;
             }
         }
@@ -259,7 +267,7 @@ void menu_modifica_campo_persona()
     gotoxy(43,12);printf("4) TELEFONO");
     gotoxy(43,13);printf("5) DIRECCION");
     gotoxy(43,14);printf("6) SALIR...");
-    gotoxy(45,15);printf("OPCION SELECCIONADA...");
+    gotoxy(43,15);printf("OPCION SELECCIONADA...");
     gotoxy(70,15);scanf("%d",&opc);
 
     do
@@ -575,16 +583,17 @@ void borrarPaciente (nodoArbol * arbol, int dni)
 
     if (buscado== NULL)
     {
-        printf ("\n\t No se encuentra el dni en el archivo \n");
+        gotoxy(30,7);printf ("No se encuentra el dni en el archivo");
         getch();
-        BORRAR;
+
     }
     else
     {
         if (buscado->p.eliminado==1)
         {
-            printf ("\n El paciente ya se encuentra dado de baja\n");
+            gotoxy(30,7);printf ("El paciente ya se encuentra dado de baja");
             getch();
+
         }
         else
         {
@@ -594,7 +603,7 @@ void borrarPaciente (nodoArbol * arbol, int dni)
                 {
                     if ( buscado->listaIngresos->lab.vigencia==0)
                     {
-                        printf ("\n El paciente no se puede eliminar, posee ingresos activos\n");
+                        printf ("El paciente no se puede eliminar, posee ingresos activos");
                         flag =1;
                         getch();
 
@@ -612,16 +621,16 @@ void borrarPaciente (nodoArbol * arbol, int dni)
                         {
                             if (p.dni == dni)
                             {
+
+                                imprimirUnPaciente(p,45,8);
                                 p.eliminado = 1;
                                 fseek(arc,-1*sizeof(pacientes),SEEK_CUR);
                                 fwrite(&p, sizeof(pacientes),1,arc);
-                                int x=45;
-                                int y=8;
-                                imprimirUnPaciente(p,x,y);
-                                puts("\n\t ------------------------------------ \n");
-                                BORRAR;
-                                printf ("\n el paciente ha sido eliminado");
+                                gotoxy(45,17);puts("------------------------------------");
+                                gotoxy(45,19);printf ("el paciente ha sido eliminado");
                                 getch();
+                                BORRAR;
+
 
                             }
                         }
@@ -643,15 +652,15 @@ void borrarPaciente (nodoArbol * arbol, int dni)
                     {
                         if (p.dni == dni)
                         {
+
+                            imprimirUnPaciente(p,45,8);
                             p.eliminado = 1;
                             fseek(arc,-1*sizeof(pacientes),SEEK_CUR);
                             fwrite(&p, sizeof(pacientes),1,arc);
-                            int x=45;
-                            int y=8;
-                            imprimirUnPaciente(p,x,y);
-                            puts("\n\t ------------------------------------ \n");
+                            gotoxy(45,17);puts("------------------------------------");
+                            gotoxy(45,19);printf ("el paciente ha sido eliminado");
+                            getch();
                             BORRAR;
-                            printf ("\n el paciente ha sido eliminado");
                             encontrado=1;
                         }
                     }
@@ -783,6 +792,7 @@ nodoArbol * busca_nodopaciente_en_arbol(nodoArbol * arbol, int dni)
 {
     nodoArbol * pacientebuscado=inicArbol();
 
+    if (arbol){
     if(arbol->p.dni==dni)
     {
         pacientebuscado=arbol;
@@ -797,6 +807,7 @@ nodoArbol * busca_nodopaciente_en_arbol(nodoArbol * arbol, int dni)
         {
             pacientebuscado=busca_nodopaciente_en_arbol(arbol->der,dni);
         }
+    }
     }
     return pacientebuscado;
 }

@@ -306,7 +306,7 @@ void menu_administrador()
     gotoxy(43,8);printf("3) PRACTICAS");
     gotoxy(43,9);printf("4) LABORATORIOS");
     gotoxy(43,10);printf("5) SALIR");
-    gotoxy(45,12);printf("OPCION SELECCIONADA...");
+    gotoxy(43,12);printf("OPCION SELECCIONADA...");
     gotoxy(70,12);scanf("%d",&opc);
 
     do
@@ -483,12 +483,8 @@ void menu_administrador_pacientes()
 
         case 2:
             BORRAR;
-            marco_menu();
-            gotoxy(45,2);printf("ELIMINAR PACIENTE");
-            gotoxy(30,5);printf("INGRESE EL DNI DEL PACIENTE A ELIMINAR");
-            fflush(stdin);
-            gotoxy(70,5);scanf("%d",&dni);
-            borrarPaciente(arbolpac,dni);
+            opc_B_bajapacientes(arbolpac);
+            getch();
             goto menu;
 
         case 3:
@@ -513,9 +509,7 @@ void menu_administrador_pacientes()
 
         case 6:
             BORRAR;
-            marco_borde_ancho();
-            gotoxy(35,2);
-            printf("HACEMOS LO QUE CORRESPONDE A LA OPCION 6");
+            opc_C_busquedapacientes (arbolpac);
             getch();
             goto menu;
 
@@ -527,6 +521,39 @@ void menu_administrador_pacientes()
     }
     while(opc!=7);
 }
+void opc_B_bajapacientes(nodoArbol* arbolpac)
+{
+ marco_menu();
+ int dni;
+ gotoxy(45,2);printf("ELIMINAR PACIENTE");
+ gotoxy(30,5);printf("INGRESE EL DNI DEL PACIENTE A ELIMINAR:");
+gotoxy(70,5);fflush(stdin);
+scanf("%d",&dni);
+ borrarPaciente(arbolpac,dni);
+}
+void opc_C_busquedapacientes (nodoArbol*arbolpac)
+{
+ BORRAR;
+ int dni;
+ marco_menu();
+ gotoxy(45,2);printf ("BUSQUEDA DE PACIENTES");
+ gotoxy(30,6);printf ("INGRESE EL DNI DEL PACIENTE A BUSCAR:");
+ fflush (stdin);
+ gotoxy(70,6);scanf("%d",&dni);
+
+ nodoArbol*buscado = busca_nodopaciente_en_arbol(arbolpac, dni);
+
+ if (buscado!=NULL)
+     {
+          gotoxy (40,7);printf ("El paciente buscado es:");
+          imprimirUnPaciente(buscado->p, 40, 8);
+     }
+ else{
+
+        gotoxy (40,7);printf ("Este DNI no se encuentra registrado");
+     }
+}
+
 void menu_administrador_practicas()
 {
     menu:

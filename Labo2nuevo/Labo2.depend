@@ -672,3 +672,324 @@
 	"empleado_laboratorio.h"
 	"diseño.h"
 
+1700349297 source:c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\diseño.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700193327 c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\pacientes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"diseño.h"
+
+1700100396 c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\ingresos_labo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"diseño.h"
+
+1700104529 c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\practicas_ingreso.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"estructuras.h"
+
+1700095748 c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\practicas_labo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"empleado_laboratorio.h"
+	"diseño.h"
+
+1700087056 c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\empleado_laboratorio.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"diseño.h"
+	"estructuras.h"
+
+1700182181 c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\diseño.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700086958 c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\estructuras.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"diseño.h"
+
+1700104829 source:c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\empleado_laboratorio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700103590 source:c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\ingreso_labo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<time.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700192024 source:c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"diseño.h"
+
+1700350493 source:c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\pacientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"estructuras.h"
+
+1700104529 source:c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\practicas_ingreso.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"estructuras.h"
+
+1700101634 source:c:\users\win10\onedrive\escritorio\tp -18-11\labo2nuevo\practicas_labo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700349297 source:c:\users\win10\onedrive\escritorio\tp -18-11\labo2ultimaversion\labo2nuevo\diseño.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700193327 c:\users\win10\onedrive\escritorio\tp -18-11\labo2ultimaversion\labo2nuevo\pacientes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"diseño.h"
+
+1700100396 c:\users\win10\onedrive\escritorio\tp -18-11\labo2ultimaversion\labo2nuevo\ingresos_labo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"diseño.h"
+
+1700104529 c:\users\win10\onedrive\escritorio\tp -18-11\labo2ultimaversion\labo2nuevo\practicas_ingreso.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"estructuras.h"
+
+1700095748 c:\users\win10\onedrive\escritorio\tp -18-11\labo2ultimaversion\labo2nuevo\practicas_labo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"empleado_laboratorio.h"
+	"diseño.h"
+
+1700087056 c:\users\win10\onedrive\escritorio\tp -18-11\labo2ultimaversion\labo2nuevo\empleado_laboratorio.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"diseño.h"
+	"estructuras.h"
+
+1700182181 c:\users\win10\onedrive\escritorio\tp -18-11\labo2ultimaversion\labo2nuevo\diseño.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700086958 c:\users\win10\onedrive\escritorio\tp -18-11\labo2ultimaversion\labo2nuevo\estructuras.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"diseño.h"
+
+1700104829 source:c:\users\win10\onedrive\escritorio\tp -18-11\labo2ultimaversion\labo2nuevo\empleado_laboratorio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700103590 source:c:\users\win10\onedrive\escritorio\tp -18-11\labo2ultimaversion\labo2nuevo\ingreso_labo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<time.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
+1700192024 source:c:\users\win10\onedrive\escritorio\tp -18-11\labo2ultimaversion\labo2nuevo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"diseño.h"
+
+1700104529 source:c:\users\win10\onedrive\escritorio\tp -18-11\labo2ultimaversion\labo2nuevo\practicas_ingreso.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+	"estructuras.h"
+
+1700101634 source:c:\users\win10\onedrive\escritorio\tp -18-11\labo2ultimaversion\labo2nuevo\practicas_labo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"conio.h"
+	"pacientes.h"
+	"ingresos_Labo.h"
+	"practicas_ingreso.h"
+	"practicas_Labo.h"
+	"empleado_laboratorio.h"
+
